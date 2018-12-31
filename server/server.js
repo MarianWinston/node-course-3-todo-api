@@ -25,5 +25,4 @@ app.listen(3000, () => {
     console.log('Started on port 3000');
 });
 
-
-// https://maps.googleapis.com/maps/api/geocode/json?key=AIzaSyC8tKaD_I387qeZ8vhYtWBGgkGseGHCuXs&address=1301+lombard+st+philadelphia
+module.exports = {app};
