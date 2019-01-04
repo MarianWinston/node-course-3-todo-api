@@ -296,7 +296,6 @@ describe('POST /users/login', () => {
                     expect(user.tokens.length).toBe(0);
                     done();
                 }).catch((err) => done(err));
-
             });
     });
 });
